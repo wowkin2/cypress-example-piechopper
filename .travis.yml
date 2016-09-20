@@ -4,6 +4,9 @@
 ## backend language though.
 language: node_js
 
+addons:
+  artifacts: true
+
 node_js:
   - 5.3
 
