@@ -35,6 +35,7 @@ describe("PieChopper", function(){
         // https://on.cypress.io/api/click
         cy
           .contains("About").click()
+          .screenshot()
           .get("#about-section")
             .should("be.visible")
             .should("contain", "PieChopper assists startup teams to share their equity fair and square.")
