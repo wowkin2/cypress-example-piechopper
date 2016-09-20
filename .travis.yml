@@ -5,7 +5,10 @@
 language: node_js
 
 addons:
-  artifacts: true
+  artifacts:
+    debug: true
+    paths:
+    - ./cypress/screenshots
 
 node_js:
   - 5.3
