@@ -28,5 +28,8 @@
     "compression": "^1.5.2",
     "express": "^4.13.3"
   },
+  "engines": {
+    "node": "5.9.1"
+  },
   "private": "true"
 }
